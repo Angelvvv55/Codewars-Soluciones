@@ -8,7 +8,6 @@ Example: (input --> output)
 
 #Solucion
 def DNA_strand(dna):
-    # code here
     a = ""
     for i in dna:
         if i == "A":
