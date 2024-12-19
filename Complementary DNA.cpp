@@ -34,7 +34,7 @@ std::string DNAStrand(const std::string& dna)
 
 // Test
 int main() {
-    std::string dna = "ATTGC"; // Example DNA strand
+    std::string dna = "ATTGC";
     std::string complement = DNAStrand(dna);
     std::cout << "Cadena de DNA Original: " << dna << std::endl;
     std::cout << "Cadena de DNA Complementaria: " << complement << std::endl;
